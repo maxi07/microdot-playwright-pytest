@@ -8,3 +8,9 @@ Run the following two commands:
 pip install -r requirements.txt
 playwright install
 ```
+
+## Run the test locally
+You can run the tests locally, for testing without a Raspberry Pico. After installing the requirements, run 
+```python
+pytest test_server.py
+```
