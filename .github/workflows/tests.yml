@@ -2,9 +2,13 @@ name: Run Microdot Tests Playwright
 
 on:
   push:
+    paths-ignore:
+      - '*.md'
     branches:
       - main  # Trigger bei Push auf den "main"-Branch
   pull_request:
+    paths-ignore:
+      - '*.md'
     branches:
       - main  # Trigger bei Pull Requests auf den "main"-Branch
 
